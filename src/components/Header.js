@@ -1,10 +1,10 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({value}) {
     return (
         <header>
             <h1>
-                Welcome Header Component
+                {value}
             </h1>
         </header>
     )
